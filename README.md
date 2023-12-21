@@ -20,3 +20,5 @@ In there copy all the files except the index.html.
 These files are referenced in the index.html file using for example: href="http://localhost/static/microsoftAssets/app.css".
 
 So you need to change "localhost" to the domain or IP on which your GoPhish server is hosted!
+
+![alt text](https://github.com/jole583/GoPhish-Microsoft-Login/blob/main/previewGIF.gif)
