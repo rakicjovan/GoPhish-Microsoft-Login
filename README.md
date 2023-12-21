@@ -1,7 +1,7 @@
 # GoPhish-Microsoft-Login
 A fake Microsoft login page optimized for GoPhish campaigns
 
-This is a copy of the Microsoft login page created by [@Octagon-simon](https://github.com/Octagon-simon).
+This is based on the Microsoft login page created by [@Octagon-simon](https://github.com/Octagon-simon).
 
 My version uses an updated index.html and app.jss.
 
