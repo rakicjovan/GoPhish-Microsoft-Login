@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const unameInp = document.getElementById('inp_uname');
     const pwdInp = document.getElementById('inp_pwd');
     let view = "uname";
+    let nxtPressed = false;
 
     let unameVal = pwdVal = false;
     /////next button
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nxt.addEventListener('click', () => {
         //validate the form
+        nxtPressed = true;
         validate();
         if (unameVal) {
             document.getElementById("section_uname").classList.toggle('d-none');
@@ -45,6 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         pwdInp.focus();
     })
+
+    unameInp.addEventListener('input', function(){
+        if (nxtPressed){
+            validate();
+        };
+    });
 
     //////sign in button
 
@@ -93,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 unameValAction(true);
             }
             unameInp.addEventListener('change', function () {
-                if (this.value.trim() === "") {
+                if (!validateEmail (unameInp.value)) {
                     unameValAction(false);
                 } else {
                     unameValAction(true);
