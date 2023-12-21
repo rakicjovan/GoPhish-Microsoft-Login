@@ -5,9 +5,9 @@ This is based on the Microsoft login page created by [@Octagon-simon](https://gi
 
 My version uses an updated index.html and app.jss.
 
-The username and password are copied to a new form which then lets the final button submit the data to your GoPhish instance.
-Regex is added for checking if an email address is valid.
-You can use the Enter key after writting your username or password.
+-The username and password are copied to a new form which then lets the final button submit the data to your GoPhish instance.<br />
+-Regex is added for checking if an email address is valid.<br />
+-You can use the Enter key after writting your username or password.<br />
 
 To use this with GoPhish simply copy the html to a new landing page template.
 All of the other files need to be located on your server running GoPhish.
