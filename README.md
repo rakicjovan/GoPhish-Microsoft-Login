@@ -3,7 +3,7 @@
 
 This is based on the Microsoft login page created by [@Octagon-simon](https://github.com/Octagon-simon).
 
-My version uses an updated index.html and app.jss.
+My version uses an updated index.html and app.jss, optimized for Gophish.
 
 -The username and password are copied to a new form which then lets the final button submit the data to your GoPhish instance.<br />
 -Regex is added for checking if an email address is valid.<br />
